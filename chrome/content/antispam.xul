@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<!DOCTYPE dialog SYSTEM "chrome://antispam/locale/antispam.dtd">
+<overlay id="sample"
+xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
+
+<script type="application/x-javascript"
+	src="chrome://antispam/content/menu.js"/>
+
+<toolbar id="header-view-toolbar">
+<button
+        id="blockbutton"
+        label="&AS.blockButton;"
+        oncommand="popMenu();"/>
+</toolbar>
+
+<menupopup id="messageMenuPopup">
+        <menuseparator/>
+        <menuitem
+                id="blockmenuitem"
+                label="&AS.messageMenu;"
+                oncommand="popList();"
+                accesskey="b"/>
+</menupopup>
+
+<menupopup id="mailContext">
+        <menuitem id="blockPopUp" label="&AS.contextMenu;" oncommand="popMenu();"/>
+</menupopup>
+</overlay>

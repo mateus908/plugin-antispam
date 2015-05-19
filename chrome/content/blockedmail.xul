@@ -1,0 +1,43 @@
+<?xml version="1.0"?>
+<!DOCTYPE dialog SYSTEM "chrome://antispam/locale/antispam.dtd">
+<?xml-stylesheet href="chrome://global/skin/global.css" type="text/css"?>
+<?xml-stylesheet href="chrome://antispam/content/styleMenu.css" type="text/css"?>
+
+<dialog id="checkemail" title="&AS.titleBlock;"
+        xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul"
+        buttons="cancel,extra1,extra2"
+        buttonlabelcancel="&AS.cancel;"
+        buttonlabelextra1="&AS.remove;"
+        buttonlabelextra2="&AS.add;"
+        ondialogcancel="return onCancelar();"
+        ondialogextra1="return onRemover();"
+        ondialogextra2="return onAdicionar();"
+        flex="2"
+        width="400"
+        onload="return queryMail();">
+        
+<dialogheader class="title_header" title="&AS.headerBlock;" align="center"/>
+
+<label>&AS.labelBlock;</label>
+
+<tree id="m-tree" flex="1" seltype="single" rows="15">
+  <treecols>
+    <treecol id="remetente" label="&AS.treeCol;" flex="1"/>
+  </treecols>
+
+  <treechildren id="parenttree"></treechildren>
+</tree>
+
+<groupbox flex="1">
+  <separator class="groove-thin" orient="horizontal"/>
+  <label id="elabel" value="&AS.labelSet;"/>
+  <textbox id="add-blocked" value=""/>
+</groupbox>
+
+<script type="application/x-javascript"
+  src="chrome://antispam/content/blocked.js"/>
+
+<script type="application/x-javascript"
+  src="chrome://antispam/content/dbmanager.js"/>
+
+</dialog>

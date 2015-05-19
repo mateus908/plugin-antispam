@@ -1,0 +1,17 @@
+<!ENTITY AS.blockButton         "Bloquear">
+<!ENTITY AS.messageMenu         "e-Mails bloqueados">
+<!ENTITY AS.contextMenu         "Bloquear este remetente">
+
+<!ENTITY AS.titleSet            "Bloquear">
+<!ENTITY AS.cancel              "Cancelar">
+<!ENTITY AS.accept              "Bloquear">
+<!ENTITY AS.headerSet           "Bloquear Endereço">
+<!ENTITY AS.labelSet            "e-Mail:">
+
+
+<!ENTITY AS.titleBlock          "e-Mails bloqueados">
+<!ENTITY AS.remove              "Remover">
+<!ENTITY AS.add                 "Adicionar">
+<!ENTITY AS.headerBlock         "Endereços Bloqueados">
+<!ENTITY AS.labelBlock          "Adicione um e-mail à lista ou selecione para remover:">
+<!ENTITY AS.treeCol             "Remetente">

@@ -1,0 +1,17 @@
+<!ENTITY AS.blockButton         "Block">
+<!ENTITY AS.messageMenu         "Blocked mail list">
+<!ENTITY AS.contextMenu         "Block this sender">
+
+<!ENTITY AS.titleSet            "Block">
+<!ENTITY AS.cancel              "Cancel">
+<!ENTITY AS.accept              "Block">
+<!ENTITY AS.headerSet           "Block Mail Address">
+<!ENTITY AS.labelSet            "e-Mail:">
+
+
+<!ENTITY AS.titleBlock          "Blocked">
+<!ENTITY AS.remove              "Remove">
+<!ENTITY AS.add                 "Add">
+<!ENTITY AS.headerBlock         "Blocked List">
+<!ENTITY AS.labelBlock          "Add a new e-mail to the list or select one to remove:">
+<!ENTITY AS.treeCol             "Sender">

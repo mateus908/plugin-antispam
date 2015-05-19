@@ -1,0 +1,4 @@
+content antispam chrome/content/
+locale antispam en-US chrome/locale/en-US/
+locale antispam pt-BR chrome/locale/pt-BR/
+overlay chrome://messenger/content/messenger.xul chrome://antispam/content/antispam.xul
