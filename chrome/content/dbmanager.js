@@ -36,7 +36,7 @@ function formURL(file){
 
 function addMail(address) {
 
-    var user = "mateusdebem@hotmail.com";
+    var user = "example@email.com";
     var queryString = "spam=" + address;
     queryString +=  "&user=" + user;
     var url = formURL("insert.php");
@@ -55,7 +55,7 @@ function addMail(address) {
 
 function removeMail(address) {
 
-    var user = "mateusdebem@hotmail.com";
+    var user = "example@email.com";
     var queryString = "spam=" + address;
     queryString +=  "&user=" + user;
     var url = formURL("remove.php?" + queryString);
@@ -74,7 +74,7 @@ function removeMail(address) {
 
 function queryMail() {
 
-    var user = "mateusdebem@hotmail.com";
+    var user = "example@email.com";
     var queryString = "user=" + user;
     var url = formURL("getuser.php?" + queryString);
     var xhr = createCORSRequest("GET", url, false);
